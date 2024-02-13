@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+   
+        <div class="main-heading">
+            <h2>Task Scheduler</h2>
+
+        </div>
+        
+        <div class="contents">
+            <!-- <input type="text" id="taskInput" placeholder="Enter task...">
+            <select name="priority" id="priority">
+                <option>Top Priority</option>
+                <option>Medium Priority</option>
+                <option>Least Priority</option>
+            </select>
+            <input type="date" id="date">
+        <button onclick="addTask()">Add Task</button> -->
+
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Enter task">
+            <select id="prioritySelect">
+                <option value="Top">Top Priority</option>
+                <option value="Medium">Medium Priority</option>
+                <option value="least">Least Priority</option>
+            </select>
+            <input type="date" id="dateInput"> &nbsp; &nbsp; &nbsp; &nbsp;
+        
+            <input type="submit" value="Add Task" id="addtask-btn"> 
+
+        </form>
+
+        <div class="task-list" id="taskList">
+            
+        </div>
+
+
+        </div>
+        
+
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.main-heading{
+    width: 100%;
+    background: blue;
+    height: 100px;
+}
+
+.main-heading h2{
+    font-size: 30px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+.contents{
+     width: 100%;
+     margin-top: 20px;
+     min-height: 50px;
+     margin-left: 20%;
+}
+#taskInput, select, #date, #addtask-btn{
+    border-radius: 4px;
+    padding: 3px;
+    border: 1px solid black;
+    outline: none;
+    margin-right: 30px;
+}
+.task-list{
+    border: 1px solid rgb(202, 198, 198);
+    width: 800px;
+    margin-top: 30px;
+    min-height: 100px;
+}
+.task-list .list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgb(202, 198, 198);
+    margin-top: 10px;
+    width: 750px;
+    margin-left: 25px;
+    border-radius: 4px;
+    padding: 20px 5px;
+    margin-bottom: 20px;
+}
+.task-list .list li{
+    font-weight: 800px;
+    font-size: 18px;
+}
+.task-list .list li .mark-btn{
+    background: rgb(34, 184, 34);
+    color: white;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    letter-spacing: 2px;
+}
+
